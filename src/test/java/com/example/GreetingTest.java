@@ -17,5 +17,5 @@ public class GreetingTest {
         String result = greeting.sayHello(null);
         assertEquals("Hello, Friend", result);
     }
-    @Test testHelloBasic()
+    @Test testHelloNull()
 }
