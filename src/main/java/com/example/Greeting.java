@@ -2,6 +2,9 @@ package com.example;
 
 public class Greeting {
     public String sayHello(String name) {
-        return "Hello, World";
+        if (name == null) {
+            return "Hello, Friend";
+        }
+        return "Hello, " + name;
     }
 }
